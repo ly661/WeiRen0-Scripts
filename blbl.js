@@ -14,7 +14,7 @@ TG频道群：暂无
 [rewrite_local]
 
 #哔哩哔哩解锁大会员
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header blbl.js
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/blbl.js
 
 [mitm]
 hostname = *.biliapi.*, *.bilibili.*
