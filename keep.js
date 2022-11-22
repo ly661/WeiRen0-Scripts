@@ -1,5 +1,17 @@
 /*
 
+脚本功能：keep 解锁会员课，直播课
+下载地址：appstore
+软件版本：所有
+脚本作者：伟人
+更新时间：2022-11-22
+问题反馈：QQ+55749353
+QQ会员群：暂无
+TG反馈群：暂无
+TG频道群：暂无
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+^http[s]?:\/\/.+keep.+(athena/v7/people/my|/ad/preload|details|preview|/start|liveStream/schedule|course/v3/plans|/home/prime/page).*$ url script-response-body 
 
 hostname = *keep*
 
