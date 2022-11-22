@@ -1,22 +1,22 @@
-/*
 
-脚本功能：樊登读书 会员+付费课程
-下载地址：appstore
-软件版本：所有
-脚本作者：伟人
-更新时间：2022-11-22
-问题反馈：QQ+55749353
-QQ会员群：暂无
-TG反馈群：暂无
-TG频道群：暂无
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+#脚本功能：樊登读书 会员+付费课程
+#下载地址：appstore
+#软件版本：所有
+#脚本作者：伟人
+#更新时间：2022-11-22
+#问题反馈：QQ+55749353
+#作者QQ:55749353
+#QQ会员群：暂无
+#TG反馈群：暂无
+#TG频道群：暂无
+#使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 [mitm]
 hostname = *dushu*
 [rewrite_local]
 
 ^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20221117rUwJa1id5I0oUDDYTJk
-^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body 
+^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/FD.js
 
 */
  
