@@ -1,17 +1,18 @@
 
+/*
+脚本功能：哔哩哔哩 画质解锁
+下载地址：appstore
+软件版本：所有
+脚本作者：伟人
+更新时间：2022-11-22
+问题反馈：QQ+55749353
+食用方法: 看免费视频把画质调高，后续看任何视频都高画质
+QQ会员群：暂无
+TG反馈群：https://t.me/+tOQEwAEP0B81YzVl
+TG频道群：暂无
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
-#脚本功能：哔哩哔哩 画质解锁
-#下载地址：appstore
-#软件版本：所有
-#脚本作者：伟人
-#更新时间：2022-11-22
-#问题反馈：QQ+55749353
-#食用方法: 看免费视频把画质调高，后续看任何视频都高画质
-#QQ会员群：暂无
-#TG反馈群：https://t.me/+tOQEwAEP0B81YzVl
-#TG频道群：暂无
-#使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
+*/
 
 ^http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/BLBLHD.js
 
