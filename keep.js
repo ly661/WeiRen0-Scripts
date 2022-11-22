@@ -11,7 +11,7 @@ TG反馈群：暂无
 TG频道群：暂无
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
-^http[s]?:\/\/.+keep.+(athena/v7/people/my|/ad/preload|details|preview|/start|liveStream/schedule|course/v3/plans|/home/prime/page).*$ url script-response-body 
+^http[s]?:\/\/.+keep.+(athena/v7/people/my|/ad/preload|details|preview|/start|liveStream/schedule|course/v3/plans|/home/prime/page).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/keep.js 
 
 hostname = *keep*
 
