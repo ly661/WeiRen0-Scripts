@@ -11,6 +11,8 @@ TG反馈群：暂无
 TG频道群：暂无
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
+[mitm]
+hostname = *dushu*
 [rewrite_local]
 
 ^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20221117rUwJa1id5I0oUDDYTJk
