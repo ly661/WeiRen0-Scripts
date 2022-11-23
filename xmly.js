@@ -12,7 +12,8 @@ TG频道群：暂无
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 [rewrite_local]
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly.js
+
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly.js
 
 [mitm]
 hostname = *xima*
