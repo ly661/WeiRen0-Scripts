@@ -12,7 +12,7 @@ TG频道群：暂无
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 #网易云解锁VIP直接听
-^http[s]?:\/\/.+(player/url|playlist|entrance).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js
+^http[s]?:\/\/.+(player/url|playlist|entrance|/eapi/search/).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js
 
 [mitm]
 hostname = *music*
