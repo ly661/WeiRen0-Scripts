@@ -15,7 +15,7 @@ TG频道群：暂无
 
 #氧气听书
 
-^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body 
+^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/yqts.js
 [mitm]
 hostname = *.o2ting.*
 */
