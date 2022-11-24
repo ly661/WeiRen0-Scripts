@@ -15,7 +15,7 @@ TG频道群：暂无
 
 #云听解锁
 
-^http[s]?:\/\/(getway|ytapi).radio.(cn|com)(/app[a-z0-9/]+|/ytsrv/srv/appUser/getUserInfoH5).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yunting.js
+^http[s]?:\/\/(getway|ytapi).radio.(cn|com)(/app[a-z0-9/]+|/ytsrv/srv/appUser/getUserInfoH5).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/yunt.js
 
 [mitm]
 hostname = *.radio.*
