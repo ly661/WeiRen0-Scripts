@@ -17,7 +17,7 @@ TG频道群：暂无
 
 #69萝莉酱
 
-^http[s]?:\/\/h5.+((rwut)|(luoli)|(cmw)).+(com|cn)\/h5\/(movie/detail|search/movie).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/69luoli%2B%2B.js
+^http[s]?:\/\/h5.+((rwut)|(luoli)|(cmw)).+(com|cn)\/h5\/(movie/detail|search/movie).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/69luolij.js
 
 [mitm]
 hostname = *rwut*,*luoli*,*cmw*
