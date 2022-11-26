@@ -7,7 +7,7 @@
 作者QQ:55749353
 更新时间：2022-11-26
 问题反馈：QQ+55749353
-作者忠告:不要分享，不要分享
+作者忠告:内部群使用需要配合其他脚本
 QQ会员群：暂无
 TG反馈群：https://t.me/+tOQEwAEP0B81YzVl
 TG频道群：暂无
@@ -17,7 +17,7 @@ TG频道群：暂无
 
 #醒图会员
 
-^http[s]?:\/\/.+((retouchpics)|(faceu)).(com|cn|mobi)\/.+user.*$ url script-response-body Xtu.js
+^http[s]?:\/\/.+((retouchpics)|(faceu)).(com|cn|mobi)\/.+user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
 
 [mitm]
 hostname = *faceu*,*retouchpics*
