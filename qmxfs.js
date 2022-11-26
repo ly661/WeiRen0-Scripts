@@ -15,7 +15,7 @@ TG频道群：暂无
 
 [rewrite_local]
 #全民幸福社
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly.js
+^http:\/\/api\.qmxfs\.com\/v003/user\/queryAccountInfo\.json url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/qmxfs.js
 
 [mitm]
 hostname = *qmxfs*
