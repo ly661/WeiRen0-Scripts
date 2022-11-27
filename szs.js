@@ -15,7 +15,7 @@ TG频道群：不用添加
 
 [rewrite_local]
 
-^http[s]?:\/\/.+sez.+m3u8.+m3u8.+ url script-request-header sezse.js
+^http[s]?:\/\/.+sez.+m3u8.+m3u8.+ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/szs.js
 
 [mitm]
 hostname = sjk*,*sez*
