@@ -1,6 +1,6 @@
   /*
 
-脚本功能：XBoy 解锁所有视频
+脚本功能：XBoy🚗 解锁所有视频
 下载地址：https://oznias.fit/?pc=47QNSE,
 软件版本：所有
 脚本作者：伟人
@@ -14,7 +14,7 @@ TG频道群：不用添加
 
 [rewrite_local]
 
-^http[s]?:\/\/.+((xo2xo)|(hnyiya)).(live|com)\/api\/(Account\/IndexDetail|movie\/DetailInfo|movie\/watch).*$ url script-response-body XBoy.js
+^http[s]?:\/\/.+((xo2xo)|(hnyiya)).(live|com)\/api\/(Account\/IndexDetail|movie\/DetailInfo|movie\/watch).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xboy.js
 ^http[s]?:\/\/.+live\/api\/movie\/colllist\/1\/10 url 302 https://m.xo2xo.live/api/movie/colllist/1/5000
 
 [mitm]
