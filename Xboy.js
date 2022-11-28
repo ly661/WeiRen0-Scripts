@@ -1,7 +1,7 @@
   /*
 
 脚本功能：XBoy🚗 解锁所有视频(喜欢大洋马不要错过)需要登录账号
-下载地址：https://oznias.fit/?pc=47QNSE,
+下载地址：XBoy🚗-官网地址 - https://www.xboy6.live/?ivcode=U5K9。ipa下载地址 - https://wwr.lanzoui.com/xbss
 软件版本：所有
 脚本作者：伟人
 作者QQ:55749353
