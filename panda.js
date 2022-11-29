@@ -15,7 +15,7 @@ TG频道群：暂无
 
 [rewrite_local]
 
-^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body panda.js
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/panda.js
 
 [mitm]
 
