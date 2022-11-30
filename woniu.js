@@ -16,7 +16,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/((.+snailsleep)|(snailsleep)).net.*$ url script-response-body woniu.js
+^http[s]?:\/\/((.+snailsleep)|(snailsleep)).net.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/woniu.js
 
 hostname = *snailsleep*
 
