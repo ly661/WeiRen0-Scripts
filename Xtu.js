@@ -5,7 +5,7 @@
 软件版本：所有
 脚本作者：伟人
 作者QQ:55749353
-更新时间：2022-11-26
+更新时间：2022-11-30
 问题反馈：QQ+55749353
 作者忠告:内部群使用需要配合其他脚本
 QQ会员群：暂无
@@ -17,6 +17,7 @@ TG频道群：暂无
 
 #醒图会员
 
+^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*$ url request-body "device_id":"[^"]+ request-body "device_id":"383076773401742
 ^http[s]?:\/\/.+((retouchpics)|(faceu)).(com|cn|mobi)\/.+user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
 
 [mitm]
