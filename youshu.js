@@ -8,8 +8,8 @@
 更新时间：2022-12-1
 问题反馈：QQ+55749353
 QQ会员群：联系作者
-TG反馈群：https://t.me/WeiRenQAQ
-TG频道群：https://t.me/WeiRenOvO
+TG反馈群：https://t.me/WeiRenOvO
+TG频道群：https://t.me/WeiRenQAQ
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 *********************************************
