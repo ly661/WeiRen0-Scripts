@@ -15,7 +15,7 @@ TG频道群：https://t.me/WeiRenOvO
 *********************************************
 [rewrite_local]
 
-^http[s]?:\/\/.+youshu.+(m/userinfo/get|/m/user/count|common/elite_page_content|/mp/item/subpage_pack_list|m/xplan_page/info|m/media/play_list|/m/plan_page/info|/app/gongdu/pack_list|/m/common/middle_page_list).*$ url script-response-body youshu.js
+^http[s]?:\/\/.+youshu.+(m/userinfo/get|/m/user/count|common/elite_page_content|/mp/item/subpage_pack_list|m/xplan_page/info|m/media/play_list|/m/plan_page/info|/app/gongdu/pack_list|/m/common/middle_page_list).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/youshu.js
 
 [mitm]
 
