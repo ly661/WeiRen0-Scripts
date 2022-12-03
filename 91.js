@@ -19,12 +19,12 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.+((sgyrc)|(mnghx)|(czbt)|(jtshuzhiwa)).(info|cc|com)\/m_sns\/(video\/apply_play_permission|film).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/91.js
+^http[s]?:\/\/.+((ppapi)|(17gwl)|(sgyrc)|(mnghx)|(czbt)|(jtshuzhiwa)).(info|cc|com)\/m_sns\/(video\/apply_play_permission|film).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/91.js
 
 
 [mitm]
 
-hostname = *sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*
+hostname = *17gwl*,appapi*,*sgyrc*,*mnghx*,*czbt*,*jtshuzhiwa*
 
 *****************************/
 
