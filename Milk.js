@@ -1,10 +1,10 @@
     /*
 
-脚本功能：XBoy 解锁所有视频
-下载地址：https://oznias.fit/?pc=47QNSE,
+脚本功能:看海量高清片源、H漫画，
+下载地址：Milk 🚗: https://milk.kzk61yo.cn/?qcode=mm793609
 软件版本：所有
 脚本作者：伟人
-作者QQ:55749353
+作者QQ: 55749353
 更新时间：2022-11-28
 问题反馈：QQ+55749353
 QQ会员群：添加作者
@@ -15,7 +15,6 @@ TG频道群：不用添加
 [rewrite_local]
 
 ^http[s]?:\/\/ppt.fuaybr.cn\/\/Api\/(getmovexiangqing|getmhepisodesimg).*$ url request-body sign_token=[a-zA-Z0-9]+ request-body sign_token=0a5d55f1d7dfac60f8865c6b1cc58ea6
-
 ^https:\/\/ppt.fuaybr.cn\/\/(Api|Milk)\/(getuserinfo|getstartup|getvideotop) url script-response-body Milk.js
 
 [mitm]
