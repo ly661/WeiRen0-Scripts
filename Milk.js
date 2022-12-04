@@ -15,7 +15,7 @@ TG频道群：不用添加
 [rewrite_local]
 
 ^http[s]?:\/\/ppt.fuaybr.cn\/\/Api\/(getmovexiangqing|getmhepisodesimg).*$ url request-body sign_token=[a-zA-Z0-9]+ request-body sign_token=0a5d55f1d7dfac60f8865c6b1cc58ea6
-^https:\/\/ppt.fuaybr.cn\/\/(Api|Milk)\/(getuserinfo|getstartup|getvideotop) url script-response-body Milk.js
+^https:\/\/ppt.fuaybr.cn\/\/(Api|Milk)\/(getuserinfo|getstartup|getvideotop) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Milk.js
 
 [mitm]
 
