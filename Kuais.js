@@ -28,7 +28,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/h5\.zhihuav\.com\/api\/h5app\/media\/m3u8.+m3u8.+timestamp.+sign.+nonce.*$ url script-request-header Kuais.js
+^http[s]?:\/\/h5\.zhihuav\.com\/api\/h5app\/media\/m3u8.+m3u8.+timestamp.+sign.+nonce.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Kuais.js
 
 [mitm]
 hostname = *zhihuav*
