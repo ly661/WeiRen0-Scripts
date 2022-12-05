@@ -13,6 +13,7 @@
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
 TG频道群：https://t.me/WeiRenQAQ
+如果出现: 无法播放，等等问题请添加Tg频道反馈
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 [rewrite_local]
