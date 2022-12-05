@@ -4,7 +4,8 @@
 QX脚本功能：91视频 解锁所有视频。评论下载视频无解。
 ⚠️⚠️⚠️食用方法:直接看会员视频，个人页面不会变
 如果无效请添加Tg频道反馈
-下载地址：https://app.ufvy.xyz/i-S3XNNR
+下载地址1：https://app.ufvy.xyz/i-S3XNNR
+下载地址2: https://hlsrxwzl.com/
 软件版本：所有
 脚本作者：伟人
 作者QQ:55749353
