@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/wbapi\.wbbcv\.com\/api\/app\/vid\/h5\/m3u8\/.+m3u8.+token.*$ url script-request-header hls.js
+^http[s]?:\/\/wbapi\.wbbcv\.com\/api\/app\/vid\/h5\/m3u8\/.+m3u8.+token.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/hls.js
 
 [mitm]
 hostname = *wbbcv*
