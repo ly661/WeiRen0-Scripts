@@ -1,5 +1,5 @@
 /*
-脚本功能：成人快手🚗 解锁所有视频
+脚本功能：快手约炮🚗 解锁所有视频
 
 ⚠️⚠️⚠️食用方法:必须是轻量版!商店版，ipa包无效！必须是轻量版！！下载描述文件安装，没安装包的就是轻量版。实在分不清用在线观看地址。
 
@@ -28,7 +28,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/h5\.zhihuav\.com\/api\/h5app\/media\/m3u8.+m3u8.+timestamp.+sign.+nonce.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Kuais.js
+^http[s]?:\/\/h5\.zhihuav\.com\/api\/h5app\/media\/m3u8.+m3u8.+timestamp.+sign.+nonce.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Kuaiyp.js
 
 [mitm]
 hostname = *zhihuav*
