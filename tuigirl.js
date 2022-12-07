@@ -28,7 +28,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.+twittme.+\/resources\/v18\/.+\/index.m3u8 url script-request-header tuigirl.js
+^http[s]?:\/\/.+twittme.+\/resources\/v18\/.+\/index.m3u8 url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/tuigirl.js
 
 [mitm]
 hostname = *twittme*
