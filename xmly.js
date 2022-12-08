@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly.js
 
 [mitm]
-hostname = *.ximalaya.*
+hostname = 
 
 ********************************************/
 
