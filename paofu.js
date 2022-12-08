@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.*pf.+(com|cc|cn)\/api\/app\/vid\/h5\/m3u8\/.+\.m3u8\?token\=.*$ url script-request-header paofu.js
+^http[s]?:\/\/.*pf.+(com|cc|cn)\/api\/app\/vid\/h5\/m3u8\/.+\.m3u8\?token\=.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/paofu.js
 
 [mitm]
 hostname = *pfd*
