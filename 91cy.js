@@ -20,7 +20,7 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 #91次元
-^http[s]?:\/\/91[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body 91cy.js
+^http[s]?:\/\/91[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/91cy.js
 
 [mitm]
 hostname = 91*.com
