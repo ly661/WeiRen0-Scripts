@@ -19,7 +19,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.*ubestkid.*(getUserProfile|course).*$ url script-response-body blhqm.js
+^http[s]?:\/\/.*ubestkid.*(getUserProfile|course).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/beile.js
 
 
 [mitm]
