@@ -19,7 +19,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.*ubestkid.*(getUserProfile|course).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/beile.js
+^http[s]?:\/\/.*ubestkid.*(getUserProfile|course|api/v1/featureV2|xtapi/zhuanlan|/api/v1/bv/videoV2).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/beile.js
 
 
 [mitm]
