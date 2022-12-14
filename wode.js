@@ -16,7 +16,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/openapi\.mysteel\.com\/v4\/user\/info\/my\.htm url script-response-body wdgt.js
+^http[s]?:\/\/openapi\.mysteel\.com\/v4\/user\/info\/my\.htm url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/wode.js
 
 [mitm]
 hostname = *mysteel*
