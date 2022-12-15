@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(album\/v2\/trackRecord\/queryTrackRecordsByAlbumIdAndUid|user\/member\/page\/productdetails).*$ url script-response-body xmet.js
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(album\/v2\/trackRecord\/queryTrackRecordsByAlbumIdAndUid|user\/member\/page\/productdetails).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmet.js
 
 hostname = *ximalaya*
 
