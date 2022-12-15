@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/gentlemanapp\.lingdu2019.cn\/ios_api\/(my_home\/my_detail|portrait\/goods_detail|publish\/yuepai_detail) url script-response-body shenshi.js
+^http[s]?:\/\/gentlemanapp\.lingdu2019.cn\/ios_api\/(my_home\/my_detail|portrait\/goods_detail|publish\/yuepai_detail) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/shens.js
 [mitm]
 hostname = gentlemanapp*
 
