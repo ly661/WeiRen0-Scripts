@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/api\.sotong\.info\/api\/videos url script-request-header sotong.js
+^http[s]?:\/\/api\.sotong\.info\/api\/videos url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/soutong.js
 
 hostname = *sotong*
 
