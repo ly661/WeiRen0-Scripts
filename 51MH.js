@@ -19,7 +19,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #51漫画
 
-^http[s]?:\/\/51[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body 51mh.js
+^http[s]?:\/\/51[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/51MH.js
 
 [mitm]
 hostname = 51*.com
