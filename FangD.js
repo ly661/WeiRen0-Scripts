@@ -15,8 +15,6 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-#^http[s]?:\/\/interface57\.fangdongliqi\.com\/House\/DelHouse\?Access_Token.[a-zA-Z0-9-]+ url 302 https://interface57.fangdongliqi.com/House/DelHouse?Access_Token=4cec9b21-30ca-4224-b7a5-1b0f262f812a
-#^http[s]?:\/\/interface57\.fangdongliqi\.com\/House\/AddHouse url request-body Access_Token.[a-zA-Z0-9-]+ request-body Access_Token=4cec9b21-30ca-4224-b7a5-1b0f262f812a
 ^http[s]?:\/\/interface57\.fangdongliqi\.com\/Gold\/GetGoldInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/FangD.js
 
 [mitm]
