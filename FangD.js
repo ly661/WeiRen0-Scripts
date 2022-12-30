@@ -16,7 +16,7 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 
-^http[s]?:\/\/interface57\.fangdongliqi\.com\/Gold\/GetGoldInfo url script-response-body FangDong.js
+^http[s]?:\/\/interface57\.fangdongliqi\.com\/Gold\/GetGoldInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/FangD.js
 
 [mitm]
 hostname = interface57.fangdongliqi.com
@@ -24,7 +24,7 @@ hostname = interface57.fangdongliqi.com
 **************************************/
 
 
-var body = $response.body; //声明一个变量body并以响应消息体赋
+var body = $response.body; 
 let obj = JSON.parse($response.body);
 obj={
   "Result": "SUCCESS",
