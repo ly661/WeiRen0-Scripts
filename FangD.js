@@ -34,7 +34,7 @@ obj={
     "RoomCount": 0,
     "ResidualCount": 0,
     "UseRoomCount": 0,
-    "DaysRemaining": 999,
+    "DaysRemaining": 999880,
     "IsFree": 1,
     "OverdueDate": "2999-09-09",
     "OverdueStatus": 0,
