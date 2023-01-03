@@ -21,7 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #哔咔漫画
 
-^http[s]?:\/\/bk[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body bk1.js
+^http[s]?:\/\/bk[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/bk.js
 
 [mitm]
 hostname = bk*.com
