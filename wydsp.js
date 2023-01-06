@@ -21,7 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]:\/\/api\.wy.*.com\/m3u8\/.*.m3u8\?token.*$ url script-request-header wysp.js
+^http[s]:\/\/api\.wy.*.com\/m3u8\/.*.m3u8\?token.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/wydsp.js
 
 [mitm]
 hostname = api.wy*.com
