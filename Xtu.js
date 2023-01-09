@@ -1,7 +1,7 @@
 
 /***************************************
 
-脚本功能：醒图 会员
+脚本功能：醒图+剪映 会员
 下载地址：appstore
 软件版本：所有
 脚本作者：伟人
@@ -18,10 +18,11 @@ TG频道群：暂无
 
 [rewrite_local]
 
-#醒图会员
+#醒图+剪映会员
 
-^http[s]?:\/\/commercexcd-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*$ url request-body "device_id":"[^"]+ request-body "device_id":"383076773401742
-^http[s]?:\/\/.+((retouchpics)|(faceu)).(com|cn|mobi)\/.+user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
+^http[s]?:\/\/.+((retouchpics)|(faceu)|(ulikecam)).(com|cn|mobi)\/.+(user|\/v1\/homepage\/pro|ever_photo/space_info).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
+^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/byxt.js
+^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/jyi.js
 
 [mitm]
 hostname = *faceu*,*retouchpics*,*,*.ulikecam.com
