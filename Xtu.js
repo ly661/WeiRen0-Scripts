@@ -22,7 +22,7 @@ TG频道群：暂无
 
 ^http[s]?:\/\/.+((retouchpics)|(faceu)|(ulikecam)).(com|cn|mobi)\/.+(user|\/v1\/homepage\/pro|ever_photo/space_info).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
 ^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/byxt.js
-^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/jyi.js
+^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/jying.js
 
 [mitm]
 hostname = *faceu*,*retouchpics*,*,*.ulikecam.com
