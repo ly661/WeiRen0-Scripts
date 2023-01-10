@@ -20,7 +20,7 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 #69萝莉解锁会员
-^http[s]?:\/\/h5.+((rwut)|(luoli)|(cmw)).+(com|cn)\/h5\/(movie/detail|search/movie).*$ url script-request-header 69loliJ.js
+^http[s]?:\/\/h5.+((rwut)|(luoli)|(cmw)).+(com|cn)\/h5\/(movie/detail|search/movie).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/69loli.js
 
 hostname = *rwut*,*luoli*,*cmw*
 
