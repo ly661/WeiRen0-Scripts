@@ -19,7 +19,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #51漫画
 
-^http[s]?:\/\/smh.+com\/h5\/system\/info.*$ url script-request-body seman.js
+^http[s]?:\/\/smh.+com\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/seman.js
 
 [mitm]
 hostname = smh*.com
