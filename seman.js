@@ -2,7 +2,7 @@
 
 脚本功能：涩漫 会员视频+漫画
 
-在线观看地址:https://51mhh9.com/line?
+在线观看地址: https://smk005.com/line?
 脚本作者：伟人
 作者QQ:55749353
 更新时间：2023-01-11
@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-#51漫画
+#涩漫
 
 ^http[s]?:\/\/smh.+com\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/seman.js
 
