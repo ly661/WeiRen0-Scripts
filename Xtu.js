@@ -1,7 +1,7 @@
 
 /***************************************
 
-脚本功能：醒图+剪映 会员
+脚本功能：醒图+剪映+轻言相机 会员
 下载地址：appstore
 软件版本：所有
 脚本作者：伟人
@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-#醒图+剪映会员
+#醒图+剪映会员+轻颜相机
 
 ^http[s]?:\/\/.+((retouchpics)|(faceu)|(ulikecam)).(com|cn|mobi)\/.+(user|\/v1\/homepage\/pro|ever_photo\/space_info).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js
 ^http[s]?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info\?(iid|.&aid).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xintu.js
