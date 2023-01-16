@@ -24,7 +24,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.*fuhuida.*\/(videos1|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/kuaishou.js
+^http[s]?:\/\/.*fuhuida.*\/(videos1|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/kuaishou.js
 
 [mitm]
 hostname = *fuhuida*
