@@ -3,6 +3,7 @@
 脚本功能：抖漫漫画 会员
 
 在线观看地址:https://www.dmk10.com/line?
+在线播放地址2: https://www.dmh01.com/?ch=official&amp;_d=
 下载地址:https://www.dm6cpau.com?_s=NCCS
 
 脚本作者：伟人
