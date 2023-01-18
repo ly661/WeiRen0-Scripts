@@ -21,7 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #哔咔漫画
 
-^http[s]?:\/\/www\.dmh[0-9]+\.com\/h5\/system\/info url script-request-body dman.js
+^http[s]?:\/\/www\.dmh[0-9]+\.com\/h5\/system\/info url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/doman.js
 
 [mitm]
 
