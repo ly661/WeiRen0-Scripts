@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo\?idfa.*$ url script-response-body dejian.js
+^http[s]?:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo\?idfa.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/dejin.js
 
 [mitm]
 hostname = *palmestore*
