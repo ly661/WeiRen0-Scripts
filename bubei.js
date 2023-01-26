@@ -21,8 +21,7 @@ hostname = learnywhere*
 
 [rewrite_local]
 
-^http[s]?:\/\/learnywhere\.cn\/api\/bb\/buy\/(wordroot|collins|wordderive)\/purchase\?sid\= url script-response-body bbdc.js
-
+^http[s]?:\/\/learnywhere\.cn\/api\/bb\/buy\/(wordroot|collins|wordderive)\/purchase\?sid\= url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/bubei.js
 ^http[s]?:\/\/learnywhere\.cn\/api\/bb\/buy\/(wordroot|collins|wordderive)\/by-coin url script-response-body bb.js
 
 ***************************************/
