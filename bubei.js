@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = learnywhere*,learn*,*where*,*app.beingfine.cn
+hostname = learnywhere*,learn*,*where*,*app.beingfine.cn,ap*.beingfine.cn
 
 [rewrite_local]
 
