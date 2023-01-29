@@ -1,7 +1,7 @@
 
 /*
 脚本名称: 小小优趣
-脚本功能：解锁VIP
+脚本功能：解锁部分功能VIP
 下载地址：appstore
 软件版本：所有
 脚本作者：伟人
@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #小小优趣
 
-^http[s]?:\/\/.*ukids.cn\/uch5\/getUser url script-response-body xiaox.js
+^http[s]?:\/\/.*ukids.cn\/uch5\/getUser url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/xiaoxaoyouqu.js
 ^http[s]?:\/\/fastapi\.ukids\.cn\/coreapp\/play\/(video|audio)\/V[0-9]\/online.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xxyq.js
 
 [mitm]
