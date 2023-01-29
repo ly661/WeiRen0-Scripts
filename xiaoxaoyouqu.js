@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 #小小优趣
 
 ^http[s]?:\/\/.*ukids.cn\/uch5\/getUser url script-response-body xiaox.js
-^http[s]?:\/\/fastapi\.ukids\.cn\/coreapp\/play\/(video|audio)\/V[0-9]\/online.*$ url script-request-header xxyq.js
+^http[s]?:\/\/fastapi\.ukids\.cn\/coreapp\/play\/(video|audio)\/V[0-9]\/online.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xxyq.js
 
 [mitm]
 
