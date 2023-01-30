@@ -15,7 +15,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.*xingman.*\/api\/videos\/.*$ url script-request-header xingman.js
+^http[s]?:\/\/.*xingman.*\/api\/videos\/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xingma.js
 
 [mitm]
 hostname = *xingman*
