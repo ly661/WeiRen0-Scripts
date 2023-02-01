@@ -1,7 +1,7 @@
 
 /***************************************
 
-脚本功能：知乎 盐故事+知识+书刊+测评
+脚本功能：知乎 盐故事+知识+书刊+测评+去部分广告
 下载地址：appstore
 软件版本：所有
 脚本作者：伟人
@@ -11,7 +11,7 @@
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
 TG频道群：https://t.me/WeiRenQAQ
-作者忠告: 如果你是大佬请不要盗用此包，创作不易谢谢各位
+作者忠告: 如果你是大佬请不要盗用此包，创作不易谢谢各位，
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 忠告:请添加频道获取食用方法
 
@@ -23,8 +23,8 @@ hostname = www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com
 
 [rewrite_local]
 
-^https:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
-^https:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
+^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
+^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
 ^http[s]?:\/\/.*zhihu\.(com|cn)\/(sku\/reversion_sku_ext\?sku_id|remix-web\/paid_columns|km_player\/album).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/yxuan.js
 ^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/zhu.js
 
