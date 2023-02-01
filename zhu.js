@@ -26,7 +26,7 @@ hostname = www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com
 ^https:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
 ^https:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
 ^http[s]?:\/\/.*zhihu\.(com|cn)\/(sku\/reversion_sku_ext\?sku_id|remix-web\/paid_columns|km_player\/album).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/yxuan.js
-^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card).*$ url script-response-body zh.js
+^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/zhu.js
 
 ***************************************/
 
