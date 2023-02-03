@@ -19,7 +19,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = 103.41.167.*,www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com,116.136.170.105
+hostname = 120.220.198.*,120.222.234.*,103.41.167.*,www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com,116.136.170.105
 
 [rewrite_local]
 
