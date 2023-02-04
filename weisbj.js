@@ -27,7 +27,7 @@ hostname = *wetapapp*
 ^http[s]?:\/\/book\.wetapapp\.com\/homeimages\?from\=wechat&token.*$ url 302 https://book.wetapapp.com/homeimages?from=wechat&token=21f798be-eb74-493a-a979-8fd956b9edc7
 ^http[s]?:\/\/book\.wetapapp\.com\/homeimages\?from\=alipay&token.*$ url 302 https://book.wetapapp.com/homeimages?from=alipay&token=21f798be-eb74-493a-a979-8fd956b9edc7
 ^http[s]?:\/\/book\.wetapapp\.com\/homeimages\?from\=qq&token.*$ url 302 https://book.wetapapp.com/homeimages?from=qq&token=21f798be-eb74-493a-a979-8fd956b9edc7
-^http[s]?:\/\/book\.wetapapp\.com\/(refreshuinfo\?time|articles\?token).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/weisbj.js
+^http[s]?:\/\/book\.wetapapp\.com\/refreshuinfo\?time.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/weisbj.js
 
 
 ***************************************/
