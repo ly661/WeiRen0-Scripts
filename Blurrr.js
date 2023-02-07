@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/video-beats-api\.camera360\.com\/v1\/user\/vip.*$ url script-response-body Blurrr.js
+^http[s]?:\/\/video-beats-api\.camera360\.com\/v1\/user\/vip.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Blurrr.js
 
 hostname = video-beats-api.camera360.com
 
