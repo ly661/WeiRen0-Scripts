@@ -15,7 +15,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js
 
 [mitm]
-hostname = *music*
+hostname = *.music.163.com
 
 */
 
