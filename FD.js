@@ -4,9 +4,8 @@
 下载地址：appstore
 软件版本：所有
 脚本作者：伟人
-更新时间：2023-01-24
-问题反馈：QQ+55749***
-作者QQ:55749353
+更新时间：2023-02-11
+问题反馈：QQ+
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
 TG频道群：https://t.me/WeiRenQAQ
