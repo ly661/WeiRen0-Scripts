@@ -28,8 +28,7 @@ hostname = *1*1*,120.220.198.*,120.222.234.*,103.41.167.*,www.zhihu.com, api.zhi
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2 url reject-dict
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2 url reject-dict
 ^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/zhihu2.js
-^http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|sku\/reversion_sku_ext\?sku_id|remix-web\/paid_columns|km_player\/album|market\/paid_column|appview\/p|books).*$ https://raw.githubusercontent.com/WeiRen0/Scripts/main/shukan1.js
-
+^http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|sku\/reversion_sku_ext\?sku_id|remix-web\/paid_columns|km_player\/album|market\/paid_column|appview\/p|books).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/shukan1.js
 ***************************************/
 /*
  * 加密工具已经升级了一个版本，目前为 jsjiami.com.v5 ，主要加强了算法，以及防破解【绝对不可逆】配置，耶稣也无法100%还原，我说的。;
