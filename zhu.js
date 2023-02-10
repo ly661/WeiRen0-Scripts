@@ -8,6 +8,7 @@
 更新时间：2023-02-10
 问题反馈：QQ+55749353
 作者QQ:55749353
+测试版本: 8.50.0
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
 TG频道群：https://t.me/WeiRenQAQ
