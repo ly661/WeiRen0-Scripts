@@ -17,10 +17,11 @@ TG频道群：https://t.me/WeiRenQAQ
 
 hostname = *dushu*
 
+
 [rewrite_local]
 
 ^http[s]?:\/\/.+dushu.+(v101|v100|program\/v100)\/(content|play\/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType|share).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/FD.js
-^http[s]?:\/\/.+dushu.+(v101\/content|book\/v100\/info|\/play\/duration|\/v100\/index|lilei-talk-orch\/program\/v100\/info).*$ url request-body "token":"[^"]+ request-body "token":"202302150q5GBDQRbsKl0noTkH5
+http[s]?:\/\/.+dushu.+(v101\/content|book\/v100\/info|\/play\/duration|\/v100\/index|lilei-talk-orch\/program\/v100\/info).*$ url request-body "token":"[^"]+ request-body "token":"202302150q5GBDQRbsKl0noTkH5
 
 ***************************************/
 
