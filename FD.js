@@ -20,11 +20,11 @@ hostname = *dushu*
 [rewrite_local]
 
 ^http[s]?:\/\/.+dushu.+(v101|v100|program\/v100)\/(content|play\/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType|share).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/FD.js
-^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"202302150q5GBDQRbsKl0noTkH5
+^http[s]?:\/\/.+dushu.+(v101\/content|book\/v100\/info|\/play\/duration|\/v100\/index|lilei-talk-orch\/program\/v100\/info).*$ url request-body "token":"[^"]+ request-body "token":"202302150q5GBDQRbsKl0noTkH5
 
 ***************************************/
 
-/*20230215
+/*20230215晚
  * 加密工具已经升级了一个版本，目前为 jsjiami.com.v5 ，主要加强了算法，以及防破解【绝对不可逆】配置，耶稣也无法100%还原，我说的。;
  * 已经打算把这个工具基础功能一直免费下去。还希望支持我。
  * 另外 jsjiami.com.v5 已经强制加入校验，注释可以去掉，但是 jsjiami.com.v5 不能去掉（如果你开通了VIP，可以手动去掉），其他都没有任何绑定。
