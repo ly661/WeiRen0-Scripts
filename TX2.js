@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-#溏心Vlog
+#溏心Vlog🚗会员+付费视频
 
 ^http[s]:\/\/txh.*com\/h5\/user\/info.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/TX2.js
 ^http[s]?:\/\/tx[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/TX1.js
