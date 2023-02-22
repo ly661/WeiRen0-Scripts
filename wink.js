@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = *meitustat*
+hostname = *meitu*
 
 [rewrite_local]
 
