@@ -22,7 +22,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?.+adbehavior.ximalaya.com url reject
 ^http[s]?.+ad.ximalaya.com url reject
 ^http[s]?.+audid-api.taobao.com url reject
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly001.js
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly.js
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(product\/info|mobile-user\/v2\/homePage|vip\/v1\/recommand\/ts|mobile-playpage\/playpage\/tabs|mobile-album\/album\/page\/ts|mobile\/v1\/album\/track\/ts|product\/promotion\/v.\/whole\/album\/\d+\/price\/dynamic\/ts|business-vip-presale-mobile-web\/page\/ts|track\/v3\/baseInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/ximalaya.js
 [mitm]
 hostname = 180.153.*.*,*xima*,*xmcdn*,*.ximalaya.com,*.xmcdn.com,180.153.255.*,180.153.140.*,180.153.250.*,114.80.99.*,114.80.139.237,114.80.161.29,1.62.62.64,51*.com
