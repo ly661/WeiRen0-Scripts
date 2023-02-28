@@ -16,9 +16,9 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-#^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v(3|2|4)\/(user\/getaccountpage\?gender|client\/getsplashscreen\?localLabels|subscription\/getunboughtchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/QDVIP.js
-#^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v(2|4)\/(subscription\/getvipprice|bookcontent\/getvipcontent).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/QDTK.js
-#^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/adv\/getadvlistbatch\?positions url reject-200
+^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v(3|2|4)\/(user\/getaccountpage\?gender|client\/getsplashscreen\?localLabels|subscription\/getunboughtchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/QDVIP.js
+^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v(2|4)\/(subscription\/getvipprice|bookcontent\/getvipcontent).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/QDTK.js
+^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/adv\/getadvlistbatch\?positions url reject-200
 
 [mitm]
 
