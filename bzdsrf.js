@@ -18,12 +18,12 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = *keyboard
+hostname = *keyboard*
 
 [rewrite_local]
 
 
-^http[s]:\/\/api\.keyboard\.buzhedie\.com\/input\/member_info\/.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/bzdsrf.js
+^http[s]?:\/\/api\.keyboard\.buzhedie\.com\/input\/member_info\/.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/bzdsrf.js
 
 
 
