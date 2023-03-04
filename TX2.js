@@ -23,6 +23,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/tx[a-zA-Z0-9].+(com|cc|cn)\/h5\/system\/info.*$ url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/TX1.js
 ^http[s]?:\/\/tx.*com\/h5\/system\/sendSms url reject-200
 ^http[s]?:\/\/tx.*com\/image\?type\=account&username\=.*$ url reject-200
+^http[s]?:\/\/tx.*com\/h5\/message\/systemUnreadNum url reject-200
 
 [mitm]
 hostname = tx*.com
