@@ -24,6 +24,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/tx.*com\/h5\/system\/sendSms url reject-200
 ^http[s]?:\/\/tx.*com\/image\?type\=account&username\=.*$ url reject-200
 ^http[s]?:\/\/tx.*com\/h5\/message\/systemUnreadNum url reject-200
+^http[s]?:\/\/tx.*com\/h5\/user\/findQrcode url reject-200
 
 [mitm]
 hostname = tx*.com
