@@ -15,7 +15,7 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 #神户直播
-^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/shzb.js
+^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/shzb.js
 ^http[s]?:\/\/gitee\.com\/ReactJSTeams\/next.js\/raw\/master\/examples\/nested-components\/.gitignore url reject-200
 ^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/User\/Info.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/shtk.js
 [mitm]
