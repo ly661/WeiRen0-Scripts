@@ -15,11 +15,11 @@ TG频道群：https://t.me/WeiRenQAQ
 
 
 [rewrite_local]
-
+#芒果VIP
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header MGTK.js
 ^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body MGTV.js
-#去除部分绝流Ad
-^https?:\/\/iphone\.v0\.mgtv\.com\/click\.php\?abroad\=0&act\=Logout url reject-200
+#去Ad
+^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
