@@ -3,7 +3,7 @@
 芒果TV:Vip
 脚本作者：伟人
 作者QQ: 5574****
-更新时间：2023-03-16
+更新时间：2023-03-17
 问题反馈：添加作者频道
 作者忠告: 不要贩卖
 QQ会员群：PY作者
@@ -18,8 +18,6 @@ TG频道群：https://t.me/WeiRenQAQ
 
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTK.js
 ^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTV.js
-
-#去除部分绝流Ad
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
