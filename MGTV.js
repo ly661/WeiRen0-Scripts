@@ -19,12 +19,11 @@ TG频道群：https://t.me/WeiRenQAQ
 
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTK.js
 ^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTV.js
-#去除部分绝流Ad
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
-mgtv&suuid\=.*&testversion\=&ticket\=[a-zA-Z0-9]{32} url 307 mgtv&suuid=1b487f14690dc7325d08098fe87fdd53&testversion=&ticket=A4577A7A8E983A81AA6114F3E36CFDD9
+mgtv&suuid\=.*&testversion\=&ticket\=[a-zA-Z0-9]{32} url 307 mgtv&suuid=4a5a634af37e49ad5e3955bc0d99d0a6&testversion=&ticket=2132C81142333785A21EEE9614AF425D
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
 ^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
 ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
