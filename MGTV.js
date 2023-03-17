@@ -23,7 +23,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
-mgtv&suuid\=.*&testversion\=&ticket\=[a-zA-Z0-9]{32} url 302 mgtv&suuid=089ea9122b0fd80833678ee6de0c435e&testversion=&ticket=5AA105BA10C33A2E954E59ACCDFF7FA7
+mgtv&suuid\=.*&testversion\=&ticket\=[a-zA-Z0-9]{32} mgtv&suuid=1b487f14690dc7325d08098fe87fdd53&testversion=&ticket=A4577A7A8E983A81AA6114F3E36CFDD9
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
 ^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
 ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
