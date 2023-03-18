@@ -16,8 +16,8 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 #芒果VIP
-^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header MGTK.js
-^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body MGTV.js
+^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTK.js
+^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTV.js
 #去Ad
 ^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
