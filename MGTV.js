@@ -1,6 +1,6 @@
 /***************************************
 
-芒果TV:Vip
+芒果TV:Vip1.0
 脚本作者：伟人
 作者QQ: 5574****
 更新时间：2023-03-25
@@ -24,7 +24,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
-&src\=mgtv\&suuid\=[a-z0-9]{32}&testversion\=&ticket\=[a-z0-9]{32} url 302 &src=mgtv&suuid=fbbf23946bfcda427bab1e289f760eae&testversion=&ticket=49ACF8D3DBD73A2F9C135CD9B3960787
+&src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&suuid=fbbf23946bfcda427bab1e289f760eae&testversion=&ticket=49ACF8D3DBD73A2F9C135CD9B3960787
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
 ^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
 ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
