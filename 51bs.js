@@ -17,10 +17,10 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/plxk\.fhlium\.com\/api\/app\/vid\/h5\/m3u8\/.*.m3u8\?token\= url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/51bs.js
+^http[s]?:\/\/(plxk\.fhlium|xdk\.coegcj|xuoa\.vwymyr)\.com\/api\/app\/vid\/h5\/m3u8\/.*.m3u8\?token\= url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/51bs.js
 
 [mitm]
-hostname = plxk.fhlium.com
+hostname = plxk.fhlium.com,xdk.coegcj.com,xuoa.vwymyr.com
 
 ******************************************/
 
