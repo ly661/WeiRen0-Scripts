@@ -4,7 +4,7 @@
 软件版本：所有
 脚本作者：伟人
 作者QQ:
-更新时间：2023-02-25
+更新时间：2023-04-02
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenQAQ
 TG频道群：暂无
@@ -14,7 +14,8 @@ TG频道群：暂无
 
 #云听解锁
 
-^http[s]?:\/\/(getway|ytapi).radio.(cn|com)(/app[a-z0-9/]+|/ytsrv/srv/appUser/getUserInfoH5).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/yunt.js
+http[s]?:\/\/(getway|ytmsout|ytapi).radio.*(/app|/ytsrv/srv/appUser/getUserInfoH5).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/yunt.js
+
 
 [mitm]
 hostname = *.radio.*
