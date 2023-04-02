@@ -6,7 +6,7 @@
 软件版本：所有
 脚本作者：伟人
 作者QQ:55749353
-更新时间：2022-12-07
+更新时间：2023-04-03
 问题反馈：QQ+55749353
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
@@ -16,6 +16,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
+^http[s]?:\/\/openapi\.mysteel\.com\/v5\/(market\/getMarkets|article\/getContent).htm url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/gtie.js
 ^http[s]?:\/\/openapi\.mysteel\.com\/v4\/user\/info\/my\.htm url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/wode.js
 
 [mitm]
