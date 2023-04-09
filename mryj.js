@@ -22,7 +22,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #每日瑜伽
 
-^https?:\/\/((118.178.117.72)|(o2o.dailyyoga.com.cn))\/.*\/(user\/getmeinfo\?|course\/session\/detail|course\/program\/detail|user\/calendar\/date\/info|base\/clientconfig\/userguide) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/mryj.js
+^http[s]?:\/\/((118.178.117.72)|(o2o.dailyyoga.com.cn))\/.*\/(user\/getmeinfo\?|course\/session\/detail|course\/program\/detail|user\/calendar\/date\/info|base\/clientconfig\/userguide) url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/mryj.js
 
 
 [mitm]
