@@ -1,7 +1,6 @@
 /***************************************
 
 脚本功能：三联中读,知识会员+数字刊会员
-
 下载地址:APPSTOR下载
 邀请码: 
 脚本作者：伟人
@@ -19,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-#三联中读
+#三联中读,知识会员+数字刊会员
 
 ^https?:\/\/apis\.lifeweek\.com\.cn\/(vip\/loadMyVipV2\?|reg\/vistorRegister\.do).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/slzd.js
 
