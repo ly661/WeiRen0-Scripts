@@ -21,7 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #三联中读
 
-^https?:\/\/apis\.lifeweek\.com\.cn\/(vip\/loadMyVipV2\?|reg\/vistorRegister\.do).*$ url script-response-body url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/slzd.js
+^https?:\/\/apis\.lifeweek\.com\.cn\/(vip\/loadMyVipV2\?|reg\/vistorRegister\.do).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/slzd.js
 
 
 [mitm]
