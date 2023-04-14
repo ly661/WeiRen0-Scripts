@@ -20,7 +20,7 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 #91视频🚗下载地址: https://app.nzmn.org/i-W69UW35
-^http[s]?:\/\/.+((ppapi)|(17gwl)|(sgyrc)|(mnghx)|(czbt)|(jtshuzhiwa)).(info|cc|com)\/m_sns\/(video\/apply_play_permission|film).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/91.js
+^http[s]?:\/\/.+((ppapi)|(17gwl)|(sgyrc)|(mnghx)|(czbt)|(jtshuzhiwa)).(info|cc|com)\/m_sns\/(video\/apply_play_permission|film).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/91sp.js
 
 
 [mitm]
