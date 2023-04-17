@@ -29,7 +29,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/long.(fuhuida|riyufanyi).*\/(videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Kuaiyp.js
 
 [mitm]
-hostname = *fuhuida*
+hostname = *fuhuida*,*riyufanyi*
 
 
 */
