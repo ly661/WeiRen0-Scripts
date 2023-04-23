@@ -14,7 +14,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/(lps\.quftbyp|xpd\.lrg3z7t|xlw\.rsly4ni)\.com\/api\/app\/vid\/h5\/m3u8\/.*.m3u8\?token\= url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Funu.js
+^http[s]?:\/\/(lps\.quftbyp|xpd\.lrg3z7t|xlw\.rsly4ni)\.com\/api\/app\/vid\/h5\/m3u8\/.*.m3u8\?token\= url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/Fenu.js
 
 [mitm]
 hostname = lps.quftbyp.com,xpd.lrg3z7t.com,xlw.rsly4ni.com
