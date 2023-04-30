@@ -22,7 +22,7 @@ hostname = www.pozhu.com
 
 [rewrite_local]
 
-^http[s]?:\/\/www\.pozhu\.com\/(v1|v2)\/(package\/playinfo\?|notes\/index|notes\/notes|notes\/audio|notes\/video|package\/subart|package\/artlist2|video\/show|college\/chapter2|member\/userinfo|home\/startimg|deep\/course).*$ https://raw.githubusercontent.com/WeiRen0/Scripts/main/pozhu.js
+^http[s]?:\/\/www\.pozhu\.com\/(v1|v2)\/(package\/playinfo\?|notes\/index|notes\/notes|notes\/audio|notes\/video|package\/subart|package\/artlist2|video\/show|college\/chapter2|member\/userinfo|home\/startimg|deep\/course).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/pozhu.js
 
 ***************************************/
 
