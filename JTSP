@@ -15,5 +15,5 @@ TG频道群：https://t.me/WeiRenQAQ
 
 ******************************************/
 [rewrite_remote]
-https://raw.githubusercontent.com/WeiRen0/Scripts/main/jtsp2.js, tag=by-伟人,加藤变大, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/jtsp2.js, tag=by-伟人,加藤全屏播放, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/WeiRen0/Scripts/main/jtsp.js, tag=by-伟人,加藤视频🚗, update-interval=172800, opt-parser=true, enabled=true
