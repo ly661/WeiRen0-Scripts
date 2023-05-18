@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/(bllmfy\.hxcwqh|bbll\.madou.*|cfxian\.xickud|ioeurn\.yrvguhx|bblmfy\.cbsbwr)\.com\/api\/(app|h5app)\/media\/m3u8\/(zh|av)\/.*.m3u8 url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/bilbil.js
 
 [mitm]
-hostname = cfxian.xickud.com,ioeurn.yrvguhx.com,bblmfy.cbsbwr.com,bllmfy.hxcwqh.com,*.madou.*
+hostname = cfxian.xickud.com,ioeurn.yrvguhx.com,bblmfy.cbsbwr.com,bllmfy.hxcwqh.com,bbll.madou*
 
 */
 
