@@ -7,7 +7,7 @@
 软件版本：所有
 脚本作者：伟人
 作者QQ:
-更新时间：2022-12-16
+更新时间：2023-05-23
 问题反馈：QQ+55749353
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
@@ -17,8 +17,8 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(album\/v2\/trackRecord\/queryTrackRecordsByAlbumIdAndUid|user\/member\/page\/productdetails).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmet.js
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(queryTrackRecordsByAlbumIdAndUid|album\/trackRecord\/querySampleTrack|album\/trackRecord\/palyTrack).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmlyet.js
+http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(album\/v2\/trackRecord\/queryTrackRecordsByAlbumIdAndUid|queryByParentId).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmet.js
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(queryTrackRecordsByAlbumIdAndUid|album\/trackRecord\/querySampleTrack|album\/trackRecord\/palyTrack).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmettk.js
 
 hostname = *xima*,*.xmcdn.com,180.153.255.*,180.153.140.*,180.153.250.*,114.80.99.*,114.80.139.237,114.80.161.29,1.62.62.64,51*.com,180.153.*.*,*xima*,*xmcdn*,*.ximalaya.com,*.xmcdn.com,180.153.255.*,180.153.140.*,180.153.250.*,114.80.99.*,114.80.139.237,114.80.161.29,1.62.62.64,51*.com
 
