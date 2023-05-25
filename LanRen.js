@@ -16,11 +16,11 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/((hapi\.mting\.info)|(m\.lrts\.me))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js
+http[s]?:\/\/((hapi\.mting\.info)|(m\.lrts\.me)|(gzapi\.mting\.info))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js
 
 [mitm]
 
-hostname = m.lrts.me,hapi.mting.info
+hostname = gzapi.mting.info,m.lrts.me,hapi.mting.info
 
 ***************************************/
 
