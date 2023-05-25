@@ -3,7 +3,7 @@
 芒果TV:Vip1.0
 脚本作者：伟人
 作者QQ: 5574****
-更新时间：2023-05-24
+更新时间：2023-05-25
 问题反馈：添加作者频道
 作者忠告: 不要贩卖
 QQ会员群：PY作者
@@ -24,7 +24,7 @@ TG频道群：https://t.me/WeiRenQAQ
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
-&src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&testversion=&ticket=8E08184EE0EB37498CA1E24E1B02ADC6
+&src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&testversion=&ticket=44C417517F6B34B9AA7903C0A5650483
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
 ^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
 ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
