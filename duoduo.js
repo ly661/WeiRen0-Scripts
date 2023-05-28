@@ -16,6 +16,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
+^https?:\/\/api\.duoduo\.pro\/auth\/LLogin\/account url script-request-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/ddlogin.js
 ^http[s]?:\/\/api\.duoduo\.pro\/cancel-account\/condition\/validation url reject
 ^http[s]?:\/\/api\.duoduo\.pro\/user\/device\/modification url reject
 ^http[s]?:\/\/api\.duoduo\.pro\/auth\/logout url reject
