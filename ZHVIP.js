@@ -21,8 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = 61.243.13.*,58.144.248.*,120.92.107.*,www.zhihu.com,api.zhihu.com,datahub.zhihu.com,sugar.zhihu.com,appcloud.zhihu.com,duga.zhihu.com,web-er.zhihu.com,lens.zhihu.com,103.41.167.237,58.144.248.94,14.204.51.105,103.41.167.236,103.41.167.234,103.41.167.226,103.41.167.235,113.62.116.232,103.41.167.*,113.62.116.232,103*,113.62.116.232,103.41.167.237,103.41.167.226,web-er.zhihu.com,103.41.167.234,www.zhihu.com,zhuanlan.zhihu.com,api.zhihu.com,api.zhihu.com,183.204.14.111,125.77.176*,27.148*,183.204*,122.224*,60.188.72*,120.220*,120.222*,103.41.167.236,150.109.91*,*.zhihu.*,103.41.167.*,www.zhihu.com,api.zhihu.com,datahub.zhihu.com,sugar.zhihu.com,appcloud.zhihu.com,duga.zhihu.com,web-er.zhihu.com,lens.zhihu.com,103.41.167.237,58.144.248.94,14.204.51.105,103.41.167.236,103.41.167.234,103.41.167.226,103.41.167.235,113.62.116.232,103.41.167.*,113.62.116.232
-
+hostname = 58.221.31*, 61.243.13*, 58.144.248*, 120.92.107*, 125.77.176*, 27.148*, 183.204*, 122.224*, 60.188.72*, 120.220*, 120.222*, 150.109.91*, *zhihu*, 103.41.167*,112.194.67*,119.39.203*,101.207.252*,58.223.164*
 [rewrite_local]
 
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2 url reject-dict
