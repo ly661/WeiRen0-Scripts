@@ -13,7 +13,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 *********************************************
 
-^http[s]?:\/\/ab\.puitot\.com\/api\/app\/(comics\/detail|comicsChapter\/isLook|user\/info|media\/play|novel\/detail|novelChapter\/isLook|photo\/detail|dating\/loufeng\/detail).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/NewFree/main/kkjinman.js
+^http[s]?:\/\/ab\.puitot\.com\/api\/app\/(comics\/detail|comicsChapter\/isLook|user\/info|media\/play|novel\/detail|novelChapter\/isLook|photo\/detail|dating\/loufeng\/detail).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/kkjinman.js
 
 hostname = ab.puitot.com
 
