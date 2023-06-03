@@ -13,7 +13,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 *********************************************
 
-^http[s]?:\/\/napi\.yunpub\.cn\/api\/(product\/getBookContent|user\/login\/getUserInfo|other\/module\/associationContent).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/zxdy.js
+^http[s]?:\/\/napi\.yunpub\.cn\/api\/(product\/getBookContent|user\/login\/getUserInfo|other\/module\/associationContent).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/zxsy.js
 
 hostname = napi.yunpub.cn
 
