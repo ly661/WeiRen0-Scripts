@@ -14,7 +14,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 *********************************************
 
-^http[s]?:\/\/app\.thwlqy\.com\/login\/login\/sign\.html\?uid=\d+ url script-response-body qysj.js url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/qysj.js
+^http[s]?:\/\/app\.thwlqy\.com\/login\/login\/veifys\.html url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/qysj.js
 
 hostname = app.thwlqy.com
 
