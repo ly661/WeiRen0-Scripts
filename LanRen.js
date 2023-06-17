@@ -3,7 +3,7 @@
 懒人听书VIP
 脚本作者：伟人
 作者QQ:
-更新时间：2023-05-25
+更新时间：2023-06-17
 问题反馈：QQ+5574****
 作者忠告: 不要贩卖
 QQ会员群：PY作者
@@ -16,13 +16,89 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-http[s]?:\/\/((hapi\.mting\.info)|(m\.lrts\.me)|(gzapi\.mting\.info))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js
+^http[s]?:\/\/((shapi|hapi)(\.mting\.info)|(m\.lrts\.me)|(gzapi\.mting\.info))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js
 
 [mitm]
 
-hostname = gzapi.mting.info,m.lrts.me,hapi.mting.info
+hostname = *.mting.*,m.lrts.me,hapi.mting.info
 
 ***************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
