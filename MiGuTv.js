@@ -18,7 +18,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #咪咕视频VIP
 
-^http[s]?:\/\/((api\.weixin\.qq\.com)|(migu-app-umnb.miguvideo.com))\/(sns\/oauth2\/access_token\?appid|login\/migutokenforencrypt\?clientId)= url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MiGuTv.js
+^http[s]?:\/\/((api\.weixin\.qq\.com)|(migu-app-umnb\.miguvideo\.com))\/(sns\/oauth2\/access_token\?appid|login\/migutokenforencrypt\?clientId)= url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MiGuTv.js
 ^http[s]?:\/\/migu-app-umnb\.miguvideo\.com\/login\/logout\?clientId url reject
 
 [mitm]
