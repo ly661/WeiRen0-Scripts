@@ -16,7 +16,7 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 #微信读书
-^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\/profile\?articleBookId|upload\?type\=avatar).*$ url script-response-body ^https://raw.githubusercontent.com/WeiRen0/Scripts/main/wxds.js
+^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\/profile\?articleBookId|upload\?type\=avatar).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/wxds.js
 ^http[s]:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ url request-body "deviceId" : "[^"]+ request-body "deviceId":"8b024b09b8b9ccb1dc6bf030158e02fb
 ^http[s]?:\/\/i\.weread\.qq\.com\/device\/logout url reject-200
 ^http[s]?:\/\/i\.weread\.qq\.com\/updateConfig url reject-200
