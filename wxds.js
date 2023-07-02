@@ -20,7 +20,6 @@ TG频道群：https://t.me/WeiRenQAQ
 ^http[s]?:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ url request-body "deviceId" : "[^"]+ request-body "deviceId":"8b024b09b8b9ccb1dc6bf030158e02fb
 ^http[s]?:\/\/i\.weread\.qq\.com\/device\/logout url reject-200
 ^http[s]?:\/\/i\.weread\.qq\.com\/updateConfig url reject-200
-^http[s]?:\/\/res\.weread\.qq.com\/upload\?type\=avatar url reject-200
 
 
 [mitm]
