@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 #微信读书
 ^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\?userVid\=|upload\?type\=avatar).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/wxds.js
-^http[s]:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ url request-body [\s\S]+ request-body {}
+^http[s]:\/\/(i\.weread|rmonitor)\.qq\.com\/login.*$ url request-body [\s\S]+ request-body {}
 ^http[s]?:\/\/i\.weread\.qq\.com\/device\/logout url reject-200
 ^http[s]?:\/\/i\.weread\.qq\.com\/updateConfig url reject-200
 ^http[s]?:\/\/res\.weread\.qq.com\/upload\?type\=avatar url reject-200
