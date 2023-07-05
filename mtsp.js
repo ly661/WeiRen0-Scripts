@@ -17,7 +17,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [rewrite_local]
 
-^http[s]?:\/\/.*(ie3x0|vg4b3|lkxo|ib1tp).*com\/api\/app\/vid\/h5\/m3u8\/mts\/.*m3u8\?token\= url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/mtsp.js
+^http[s]?:\/\/.*(ie3x0|vg4b3|lkxo|ib1tp).*com\/api\/app\/vid\/h5\/m3u8\/.*\/.*m3u8\?token\= url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/mtsp.js
 
 [mitm]
 
