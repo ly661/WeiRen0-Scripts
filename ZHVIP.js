@@ -5,10 +5,10 @@
 下载地址：appstore 
 软件版本：所有 
 脚本作者：伟人
-更新时间：2023-07-02
+更新时间：2023-07-12
 问题反馈：QQ+
 作者QQ:
-测试版本: 9.8.0++
+测试版本: 9.10.0++
 QQ会员群：添加作者
 TG反馈群：https://t.me/WeiRenOvO
 TG频道群：https://t.me/WeiRenQAQ
@@ -29,7 +29,7 @@ hostname = 117.161.236.117,book.zhimg.com,45.116.155.181,103.55.228.1,103.55.228
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2 url reject-dict
 ^http[s]?:\/\/(api|www)\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext|bazaar\/vip_tab\/header|api\/v3\/books).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHVIP.js
 ^http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books.*\/download|market\/paid_magazine).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHTK.js
-
+^http[s]?:\/\/.*\/v2\/resolv\?host\=api\.zhihu\.com url reject
 ***************************************/
 
 
