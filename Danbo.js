@@ -16,10 +16,10 @@ TG频道群：https://t.me/WeiRenQAQ
 [rewrite_local]
 
 ^http[s]?:\/\/(api\.account|api-sub|ai\.xiuxiu)\.meitu\.com\/(users\/show_current|v2\/user\/vip_info_by_group|v1\/tool\/mtlab\/ai_graffiti_permission).json url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Danbo.js
-
+^http[s]?:\/\/api-danbo\.meitu.com\/meme\/save\.json url reject-200
 [mitm]
 
-hostname = api.account.meitu.com,api-sub.meitu.com,ai.xiuxiu.meitu.com
+hostname = api.account.meitu.com,api-sub.meitu.com,ai.xiuxiu.meitu.com,api-danbo.meitu.com
 
 ***************************************/
 
