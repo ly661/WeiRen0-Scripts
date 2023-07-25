@@ -21,7 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = 116.136.170*,116.136.170*,*zhihu*
+hostname = 116.136.170*,116.136.170*,*zhihu*,103.41.167*
 [rewrite_local]
 
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2 url reject-dict
