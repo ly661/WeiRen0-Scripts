@@ -13,7 +13,7 @@
 *******************************
 [rewrite_local]
 # > 网易蜗牛读书vip
-^^http[s]?:\/\/p\.du\.163\.com\/(gain\/readtime|user\/sns|user)\/(info|wealth)\.json url script-response-body WYWNYD.js url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/WYWNYD.js
+^http[s]?:\/\/p\.du\.163\.com\/(gain\/readtime|user\/sns|user)\/(info|wealth)\.json url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/WYWNYD.js
 
 [mitm] 
 hostname = p.du.163.com
