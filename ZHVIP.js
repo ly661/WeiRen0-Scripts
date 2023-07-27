@@ -5,7 +5,7 @@
 下载地址：appstore 
 软件版本：所有 
 脚本作者：伟人
-更新时间：2023-07-25
+更新时间：2023-07-27
 问题反馈：QQ+
 作者QQ:
 测试版本: 9.10.0++
@@ -21,7 +21,7 @@ TG频道群：https://t.me/WeiRenQAQ
 
 [mitm]
 
-hostname = 116.136.170*,116.136.170*,*zhihu*,103.41.167*
+hostname = 116.136.170*,*zhihu*,103.41.167*,book.zhimg.com
 [rewrite_local]
 
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2 url reject-dict
